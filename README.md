@@ -25,7 +25,7 @@ The dashboard is designed to transition stakeholders from "what happened" to "wh
 * **Interactive Drill-Down:** The design utilizes slicers for Date, Warehouse, and Department, enabling managers to pinpoint performance issues at a specific store location or product category.
 * **Visual Hierarchy:** The layout prioritizes trend lines and distribution charts to make complex sales data intuitive.
 
-## 🏗️ 4.) The Data Model
+## 🏗️ 4.) EER Diagram
 To ensure high performance and clear relationship mapping, the project utilizes a normalized **Star Schema**. This design separates transactional activity from descriptive attributes, allowing for efficient DAX calculations.
 
 * **Fact_LineItems:** The central hub of the model, containing granular transactional data, including the link between `TransactionID`, `SKU`, and `WarehouseID`, along with `Quantity` and `Price` metrics.
@@ -35,6 +35,8 @@ To ensure high performance and clear relationship mapping, the project utilizes 
 * **Dim_Warehouses:** Contains location-specific attributes including `WarehouseName`, `WarehouseCity`, and total `WarehouseArea`.
 * **Dim_Customers:** Provides customer demographic context, including names and geographic data (`City`, `State`, `ZipCode`).
 * **Dim_TaxCodes:** A lookup table defining the tax classification for items (e.g., distinguishing between taxed vs. exempt items), allowing for accurate net vs. gross revenue reporting.
+
+<img width="1464" height="711" alt="Pieter&#39;s EER Diagram" src="https://github.com/user-attachments/assets/07aa2849-d072-4e28-ad3e-64f027841c72" />
 
 ## 🔍 5.) Key Insights
 Analysis of the current dashboard reveals several high-impact performance trends:
