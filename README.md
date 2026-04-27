@@ -1,5 +1,7 @@
 # 🛒 Costco Invoice Analytics: End-to-End Data Engineering & Visualization
 
+<img width="1426" height="767" alt="Costco Invoice Dashboard" src="https://github.com/user-attachments/assets/964d6d67-5ccf-43ea-ae73-e6720eabac9e" />
+
 * A comprehensive study in building a robust, production-grade data pipeline from synthetic generation to high-level executive visualization.
 * This project demonstrates the full lifecycle of data—from designing a schema to deriving actionable business intelligence.
 
