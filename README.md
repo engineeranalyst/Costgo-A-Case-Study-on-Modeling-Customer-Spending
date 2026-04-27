@@ -7,8 +7,6 @@ This project serves as a comprehensive simulation of a high-volume retail transa
 
 **Disclaimer:** All data contained within this project, including customer names, addresses, and transaction history, is **100% synthetic**. It was generated using the Python `Faker` library for the sole purpose of demonstrating data engineering, modeling, and dashboarding capabilities. No real individual or corporate entity data is involved.
 
----
-
 ## 💻 2.) Python Code Methodology ⚙️
 To ensure scalability and modularity, I designed a specialized `CleanData` class using an Object-Oriented approach. This framework employs a **Strategy Pattern**, allowing for the "injection" of custom cleaning and simulation logic into the workflow.
 
