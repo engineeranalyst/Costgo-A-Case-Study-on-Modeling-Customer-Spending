@@ -1,4 +1,4 @@
-# 🛒 Costco Invoice Analytics: End-to-End Data Engineering & Visualization
+# 🛒 Costco : A Case Study on Modeling Customer Spending
 
 <img width="1426" height="767" alt="Costco Invoice Dashboard" src="https://github.com/user-attachments/assets/964d6d67-5ccf-43ea-ae73-e6720eabac9e" />
 
