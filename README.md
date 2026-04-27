@@ -2,9 +2,6 @@
 
 <img width="1426" height="767" alt="Costco Invoice Dashboard" src="https://github.com/user-attachments/assets/964d6d67-5ccf-43ea-ae73-e6720eabac9e" />
 
-* A comprehensive study in building a robust, production-grade data pipeline from synthetic generation to high-level executive visualization.
-* This project demonstrates the full lifecycle of data—from designing a schema to deriving actionable business intelligence.
-
 ## 📝 1.) Executive Summary
 This project serves as a comprehensive simulation of a high-volume retail transactional environment. By utilizing Python’s `Faker` library, I generated a large-scale, relational dataset that mirrors real-world retail operations, including SKU-specific pricing, regional warehouse distributions, and customer behavioral patterns.
 
