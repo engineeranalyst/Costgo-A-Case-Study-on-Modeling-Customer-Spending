@@ -1,6 +1,7 @@
 # 🛒 Costco Invoice Analytics: End-to-End Data Engineering & Visualization
 
-Welcome to the **Costco Invoice Analytics Project**, a comprehensive study in building a robust, production-grade data pipeline from synthetic generation to high-level executive visualization. This project demonstrates the full lifecycle of data—from designing a schema to deriving actionable business intelligence.
+* A comprehensive study in building a robust, production-grade data pipeline from synthetic generation to high-level executive visualization.
+* This project demonstrates the full lifecycle of data—from designing a schema to deriving actionable business intelligence.
 
 ## 📝 1.) Executive Summary 📈
 This project serves as a comprehensive simulation of a high-volume retail transactional environment. By utilizing Python’s `Faker` library, I generated a large-scale, relational dataset that mirrors real-world retail operations, including SKU-specific pricing, regional warehouse distributions, and customer behavioral patterns.
@@ -35,7 +36,7 @@ To ensure high performance and clear relationship mapping, the project utilizes 
 * **Dim_Customers:** Provides customer demographic context, including names and geographic data (`City`, `State`, `ZipCode`).
 * **Dim_TaxCodes:** A lookup table defining the tax classification for items (e.g., distinguishing between taxed vs. exempt items), allowing for accurate net vs. gross revenue reporting.
 
-## 🔍 5.) Key Insights 🔍
+## 🔍 5.) Key Insights
 Analysis of the current dashboard reveals several high-impact performance trends:
 
 * **Markdown Erosion:** Our analysis shows that **12% of total revenue** is lost due to aggressive discounting on "Premium" tier items. Specifically, when the variance between `BasePrice` and `Price` exceeds **15%**, inventory turnover increases by only **3%**, suggesting that these deep discounts are not effectively driving volume.
@@ -43,7 +44,7 @@ Analysis of the current dashboard reveals several high-impact performance trends
 * **Departmental Variance:** The "Electronics" department exhibits the highest price volatility, with a **±8% deviation** from `BasePrice` across regions, while "Groceries" remains highly stable at a **±2% deviation**.
 * **Discount Impact:** We identified that **40% of customers** who use a discount on their first transaction do not return for a second, whereas non-discounting customers show a **25% higher repeat purchase rate**, suggesting our current discount strategy may be attracting "one-and-done" bargain hunters rather than loyal customers.
 
-## 💡 6.) Recommendations 💡
+## 💡 6.) Recommendations
 1. **Refine Markdown Strategy:** Reduce discount depth for "Premium" products where price variance exceeds 10%. We recommend a cap on discounts to preserve **5–7% of the gross margin** currently lost to excessive markdowns.
 2. **Standardize Regional Pricing:** Implement a tighter pricing corridor for the Electronics department to reduce the current **8% volatility**, ensuring consistent margins across different geographic locations.
 3. **Optimize Low-Performing Warehouses:** For the bottom 10% of warehouses, introduce "basket-building" promotions—such as multi-buy bundles for Grocery items—to drive the average basket size up by a target of **15%**.
