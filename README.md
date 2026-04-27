@@ -3,12 +3,12 @@
 * A comprehensive study in building a robust, production-grade data pipeline from synthetic generation to high-level executive visualization.
 * This project demonstrates the full lifecycle of data—from designing a schema to deriving actionable business intelligence.
 
-## 📝 1.) Executive Summary 📈
+## 📝 1.) Executive Summary
 This project serves as a comprehensive simulation of a high-volume retail transactional environment. By utilizing Python’s `Faker` library, I generated a large-scale, relational dataset that mirrors real-world retail operations, including SKU-specific pricing, regional warehouse distributions, and customer behavioral patterns.
 
 **Disclaimer:** All data contained within this project, including customer names, addresses, and transaction history, is **100% synthetic**. It was generated using the Python `Faker` library for the sole purpose of demonstrating data engineering, modeling, and dashboarding capabilities. No real individual or corporate entity data is involved.
 
-## 💻 2.) Python Code Methodology ⚙️
+## 💻 2.) Python Code Methodology
 To ensure scalability and modularity, I designed a specialized `CleanData` class using an Object-Oriented approach. This framework employs a **Strategy Pattern**, allowing for the "injection" of custom cleaning and simulation logic into the workflow.
 
 * **Modular Architecture:** The `CleanData` class encapsulates file path management and environment detection (Cloud vs. Local), ensuring the pipeline is portable.
@@ -17,7 +17,7 @@ To ensure scalability and modularity, I designed a specialized `CleanData` class
     * **Stochastic Noise:** I utilized `random.uniform(-2.00, 2.00)` to inject controlled variance into prices, ensuring data remains realistic yet audit-ready.
     * **Normalization:** The engine handles the construction of primary fact records, joining customer, warehouse, and product dimensions in real-time, resulting in a ready-to-consume CSV format.
 
-## 📊 3.) Power BI Dashboard Methodology 🖼️
+## 📊 3.) Power BI Dashboard Methodology
 The dashboard is designed to transition stakeholders from "what happened" to "why it happened."
 
 * **KPI Overview:** High-level cards provide immediate visibility into total revenue, volume, and discount impact.
@@ -25,7 +25,7 @@ The dashboard is designed to transition stakeholders from "what happened" to "wh
 * **Interactive Drill-Down:** The design utilizes slicers for Date, Warehouse, and Department, enabling managers to pinpoint performance issues at a specific store location or product category.
 * **Visual Hierarchy:** The layout prioritizes trend lines and distribution charts to make complex sales data intuitive.
 
-## 🏗️ 4.) The Data Model 📐
+## 🏗️ 4.) The Data Model
 To ensure high performance and clear relationship mapping, the project utilizes a normalized **Star Schema**. This design separates transactional activity from descriptive attributes, allowing for efficient DAX calculations.
 
 * **Fact_LineItems:** The central hub of the model, containing granular transactional data, including the link between `TransactionID`, `SKU`, and `WarehouseID`, along with `Quantity` and `Price` metrics.
