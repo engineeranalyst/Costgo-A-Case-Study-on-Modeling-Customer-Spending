@@ -63,6 +63,8 @@ The following insights were derived directly from the finalized Power BI dashboa
 * **Growth Velocity:** The region successfully ramped from negligible transactions in January to a peak of **1,510 transactions in January of Year 2**, showing a successful "Grand Opening" adoption curve.
 
 ## 💡 6.) Recommendations
+I propose the following recommendations for increasing revenue and profitability:
+
 * **Prioritize Medium Footprints:** Since Medium-sized stores are currently more efficient earners, the next phase of expansion should prioritize the **2,500-3,000 sq. ft.** footprint to maximize ROI on real estate costs.
 * **Elite Retention Program:** Elite members have the lowest discount sensitivity (0.72%) and highest margins. I recommend an "Early Access" program for high-ticket items specifically at Large locations to "lock in" these whales for Year 2.
 * **Bargain-to-Standard Upsell:** Use high transaction volume from the Bargain tier to bundle groceries with "Standard" membership renewals, aiming to migrate them into higher-margin behavioral tiers.
