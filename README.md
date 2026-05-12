@@ -26,25 +26,33 @@ To ensure code reusability and professional architecture, I developed a modular 
     3.  **Tier Logic Integration:** Dynamically assigning customers to tiers based on their simulated spending patterns, which feeds the primary dimensions of the EER diagram.
 
 ## 📊 3.) Power BI Dashboard Methodology
-The dashboard is designed to transition stakeholders from "what happened" to "why it happened."
+The visualization layer was designed using **Mode 33** strategic principles, focusing on high-level KPIs and granular operational efficiency.
 
-* **KPI Overview:** High-level cards provide immediate visibility into total revenue, volume, and discount impact.
-* **Variance Analysis:** By comparing actual `Price` against the `BasePrice` stored in the master file, the dashboard highlights pricing volatility and markdown efficiency.
-* **Interactive Drill-Down:** The design utilizes slicers for Date, Warehouse, and Department, enabling managers to pinpoint performance issues at a specific store location or product category.
-* **Visual Hierarchy:** The layout prioritizes trend lines and distribution charts to make complex sales data intuitive.
+### Customer Spending Profile
+* **Objective:** Identify the "Who" behind the revenue.
+* **Design:** I utilized **Clustered Bar Charts** to compare Gross vs. Net spend across tiers. 
+* **Key Feature:** Implementation of a spending cluster visual to identify "Whales" (Elite) vs. "Bargain" hunters, allowing for a clear view of margin impact.
+
+### Customer Spending Velocity
+* **Objective:** Identify "Where" and "When" value is created.
+* **Binning Logic:** Using Power Query, I created **Warehouse Area Bins** (Small, Medium, Large) to categorize 1,000+ simulated locations.
+* **Design:** The centerpiece is a **Stacked Clustered Column Graph** displaying total spend across store sizes, stacked by customer tier. This highlights the "Brand over Building" effect—proving that new stores hit performance targets regardless of physical footprint in Year 1.
 
 ## 🏗️ 4.) EER Diagram
-To ensure high performance and clear relationship mapping, the project utilizes a normalized **Star Schema**. This design separates transactional activity from descriptive attributes, allowing for efficient DAX calculations.
+The project utilizes a highly normalized **Star Schema** to ensure high-performance DAX calculations and data integrity.
 
-* **Fact_LineItems:** The central hub of the model, containing granular transactional data, including the link between `TransactionID`, `SKU`, and `WarehouseID`, along with `Quantity` and `Price` metrics.
-* **Dim_Transactions:** Stores unique metadata for each event, such as `TransactionDate`, `RegisterID`, and `Time`.
-* **Dim_Products:** The master reference for all items, including `SKU`, `ProductDescription`, and the `BasePrice`.
-* **Dim_Departments:** Defines the hierarchy of retail categories, enabling grouping and aggregate reporting across `DepartmentID`.
-* **Dim_Warehouses:** Contains location-specific attributes including `WarehouseName`, `WarehouseCity`, and total `WarehouseArea`.
-* **Dim_Customers:** Provides customer demographic context, including names and geographic data (`City`, `State`, `ZipCode`).
-* **Dim_TaxCodes:** A lookup table defining the tax classification for items (e.g., distinguishing between taxed vs. exempt items), allowing for accurate net vs. gross revenue reporting.
+1.  **Dim_Customers:** Contains unique member IDs, names, and geographic data (Virginia Beach focus).
+2.  **Dim_Sales:** A bridge table containing transaction-level metadata (Time, RegisterID).
+3.  **Dim_CustomerTiers:** Definitive mapping for BARGAIN, STANDARD, and ELITE logic.
+4.  **Dim_Warehouses:** Physical attributes, specifically the `WarehouseArea` used for efficiency metrics.
+5.  **Dim_TaxCodes:** Maps internal SKU codes to state-specific tax obligations.
+6.  **Dim_Products:** Detailed SKU level descriptions and base pricing.
+7.  **Dim_Departments:** Hierarchical grouping (e.g., Grocery, Electronics, Automotive).
+8.  **Dim_Returns:** Categorization of return reasons (Defective, Change of Mind).
+9.  **Fact_Sales:** The central "Truth" table containing quantities, prices, and discount amounts.
+10. **Fact_Returns:** Tracks negative revenue events linked back to the original sales records.
 
-<img width="1464" height="711" alt="Pieter&#39;s EER Diagram" src="https://github.com/user-attachments/assets/07aa2849-d072-4e28-ad3e-64f027841c72" />
+<img width="1604" height="726" alt="Pieter&#39;s EER Diagram" src="https://github.com/user-attachments/assets/9866d023-0af7-4b79-8613-b615c02b1544" />
 
 ## 🔍 5.) Key Insights
 Analysis of the current dashboard reveals several high-impact performance trends:
