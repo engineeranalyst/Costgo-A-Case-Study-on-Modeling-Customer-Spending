@@ -1,8 +1,8 @@
 # 🛒 Costco : A Case Study on Modeling Customer Spending
 
-<img width="1431" height="782" alt="Customer Spending Profile" src="https://github.com/user-attachments/assets/643beaa2-186e-4eeb-9e62-4a91920b4283" />
+<img width="1428" height="782" alt="Customer Spending Profile" src="https://github.com/user-attachments/assets/67659e14-0ad3-4ad2-9c89-82a0ac6d58b0" />
 
-<img width="1429" height="571" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/76b03bc5-87f4-4c09-afbb-558c219df421" />
+<img width="1428" height="571" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/593994d0-79c0-497b-b678-306d709b22b8" />
 
 ## 📝 1.) Executive Summary
 This project serves as a comprehensive simulation of a high-volume retail transactional environment. By utilizing Python’s `Faker` library, I generated a large-scale, relational dataset that mirrors real-world retail operations, including SKU-specific pricing, regional warehouse distributions, and customer behavioral patterns.
