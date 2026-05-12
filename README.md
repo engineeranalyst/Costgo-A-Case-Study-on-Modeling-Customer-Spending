@@ -55,12 +55,12 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 <img width="1604" height="726" alt="Pieter&#39;s EER Diagram" src="https://github.com/user-attachments/assets/9866d023-0af7-4b79-8613-b615c02b1544" />
 
 ## 🔍 5.) Key Insights
-Analysis of the current dashboard reveals several high-impact performance trends:
+The following insights were derived directly from the finalized Power BI dashboards:
 
-* **Markdown Erosion:** Our analysis shows that **12% of total revenue** is lost due to aggressive discounting on "Premium" tier items. Specifically, when the variance between `BasePrice` and `Price` exceeds **15%**, inventory turnover increases by only **3%**, suggesting that these deep discounts are not effectively driving volume.
-* **Warehouse Throughput:** The top **20% of warehouses** are responsible for **45% of total transaction volume**. Conversely, the bottom 10% of locations show a **22% lower average basket size** than the national average, indicating a significant opportunity for store-specific assortment optimization.
-* **Departmental Variance:** The "Electronics" department exhibits the highest price volatility, with a **±8% deviation** from `BasePrice` across regions, while "Groceries" remains highly stable at a **±2% deviation**.
-* **Discount Impact:** We identified that **40% of customers** who use a discount on their first transaction do not return for a second, whereas non-discounting customers show a **25% higher repeat purchase rate**, suggesting our current discount strategy may be attracting "one-and-done" bargain hunters rather than loyal customers.
+* **The "Medium" Dominance:** The **Medium (2k-3.5k sq. ft.)** stores are currently the highest earners, generating **$535,105** in Net Spend, outperforming the "Large" flagship stores.
+* **Stable Success Metric:** The total Discount Leakage settled at **2.74%**, which is the ideal target for a healthy, profitable new market entry.
+* **Bargain Sensitivity:** **Bargain** hunters account for **8.2%** of all discount leakage, confirming they are the primary drivers of promotional volume while **Elite** members maintain a low **0.72%** leakage.
+* **Growth Velocity:** The region successfully ramped from negligible transactions in January to a peak of **1,510 transactions in January of Year 2**, showing a successful "Grand Opening" adoption curve.
 
 ## 💡 6.) Recommendations
 1. **Refine Markdown Strategy:** Reduce discount depth for "Premium" products where price variance exceeds 10%. We recommend a cap on discounts to preserve **5–7% of the gross margin** currently lost to excessive markdowns.
