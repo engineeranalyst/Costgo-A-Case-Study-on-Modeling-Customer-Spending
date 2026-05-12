@@ -2,7 +2,7 @@
 
 <img width="1428" height="782" alt="Customer Spending Profile" src="https://github.com/user-attachments/assets/67659e14-0ad3-4ad2-9c89-82a0ac6d58b0" />
 
-<img width="1428" height="571" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/593994d0-79c0-497b-b678-306d709b22b8" />
+<img width="1422" height="565" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/858a302d-b4a2-419a-9bb8-c077fe0a6d58" />
 
 ## 📝 1.) Executive Summary
 This project serves as a comprehensive simulation of a high-volume retail transactional environment. By utilizing Python’s `Faker` library, I generated a large-scale, relational dataset that mirrors real-world retail operations, including SKU-specific pricing, regional warehouse distributions, and customer behavioral patterns.
