@@ -5,9 +5,9 @@
 <img width="1422" height="565" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/858a302d-b4a2-419a-9bb8-c077fe0a6d58" />
 
 ## 📝 1.) Executive Summary
-This project serves as a comprehensive simulation of a high-volume retail transactional environment. By utilizing Python’s `Faker` library, I generated a large-scale, relational dataset that mirrors real-world retail operations, including SKU-specific pricing, regional warehouse distributions, and customer behavioral patterns.
+This project simulates a "Grand Opening" scenario for a major retail expansion, focusing on the first year of transactional data across multiple warehouse sizes and geographic locations. The primary objective was to build a robust, scalable ETL pipeline and a dual-dashboard suite to monitor **Customer Spending Velocity** and **Tiered Behavioral Profiles**. By integrating Python-driven data generation with SQL-based relational modeling, this project provides a high-fidelity look at how a new market reacts to a major retail entry.
 
-**Disclaimer:** All data contained within this project, including customer names, addresses, and transaction history, is **100% synthetic**. It was generated using the Python `Faker` library for the sole purpose of demonstrating data engineering, modeling, and dashboarding capabilities. No real individual or corporate entity data is involved.
+> **Disclaimer:** All data utilized in this project was synthetically generated using the Python Faker library to simulate a realistic retail environment for educational and portfolio purposes. No actual company data, proprietary records, or real-world transactions were used.
 
 ## 💻 2.) Python Code Methodology
 To ensure scalability and modularity, I designed a specialized `CleanData` class using an Object-Oriented approach. This framework employs a **Strategy Pattern**, allowing for the "injection" of custom cleaning and simulation logic into the workflow.
