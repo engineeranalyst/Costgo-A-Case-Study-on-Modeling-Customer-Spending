@@ -63,8 +63,7 @@ The following insights were derived directly from the finalized Power BI dashboa
 * **Growth Velocity:** The region successfully ramped from negligible transactions in January to a peak of **1,510 transactions in January of Year 2**, showing a successful "Grand Opening" adoption curve.
 
 ## 💡 6.) Recommendations
-1. **Refine Markdown Strategy:** Reduce discount depth for "Premium" products where price variance exceeds 10%. We recommend a cap on discounts to preserve **5–7% of the gross margin** currently lost to excessive markdowns.
-2. **Standardize Regional Pricing:** Implement a tighter pricing corridor for the Electronics department to reduce the current **8% volatility**, ensuring consistent margins across different geographic locations.
-3. **Optimize Low-Performing Warehouses:** For the bottom 10% of warehouses, introduce "basket-building" promotions—such as multi-buy bundles for Grocery items—to drive the average basket size up by a target of **15%**.
-4. **Restructure Loyalty Incentives:** Shift the discount strategy away from "deep-cut" price reductions toward a loyalty-based rewards system. By targeting customers who have completed at least two full-price transactions, we aim to increase customer retention by **10–12%**.
-5. **Dynamic Inventory Allocation:** Use the throughput insights to shift slow-moving "Gourmet" items from underperforming warehouses to the top-tier performing locations to increase regional sales velocity.
+* **Prioritize Medium Footprints:** Since Medium-sized stores are currently more efficient earners, the next phase of expansion should prioritize the **2,500-3,000 sq. ft.** footprint to maximize ROI on real estate costs.
+* **Elite Retention Program:** Elite members have the lowest discount sensitivity (0.72%) and highest margins. I recommend an "Early Access" program for high-ticket items specifically at Large locations to "lock in" these whales for Year 2.
+* **Bargain-to-Standard Upsell:** Use high transaction volume from the Bargain tier to bundle groceries with "Standard" membership renewals, aiming to migrate them into higher-margin behavioral tiers.
+* **Inventory Reallocation:** Large stores (3.5k+ sq. ft.) currently show under-utilized potential. I recommend increasing the SKU variety in the **Automotive and Electronics** departments to leverage the extra square footage for high-value sales.
