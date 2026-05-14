@@ -60,22 +60,22 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 * **November Revenue Surge:** Spending remained steady through Q3, followed by a massive **Black Friday spike in November**, peaking at **$792,161.77**.
 * **Transaction Peak:** While revenue peaked in November, **Transaction Counts** climbed steadily throughout the year, hitting a maximum of **1,292 in December**. This shows successful customer retention following the holiday rush.
 * **Top 5 Product Departments (Net Spend):
-    1. Hardlines/Electronics: **$1.14 M**
-    2. Hardware/Tools: **$650 K**
-    3. Home/Housewares: **$590 K**
-    4. Specialty Foods/Gourmet: **$430 K**
-    5. Media/Books: **$400 K**
+    1. Hardlines/Electronics: **$1.14M**
+    2. Hardware/Tools: **$650K**
+    3. Home/Housewares: **$590K**
+    4. Specialty Foods/Gourmet: **$430K**
+    5. Media/Books: **$400K**
 * **Top 5 Hero Products (Net Spend):**
-    1. HEADPHONES: **$360 K**
-    2. POWER DRILL: **$350 K**
-    3. COFFEE MAKER: **$333 K**
-    4. TOASTER: **$333 K**
-    5. BED SHEETS: **$222 K**
+    1. HEADPHONES: **$360K**
+    2. POWER DRILL: **$350K**
+    3. COFFEE MAKER: **$333K**
+    4. TOASTER: **$333K**
+    5. BED SHEETS: **$222K**
 * **Discount Dynamics:** Only **38.9% of products** were discounted, yet **97.3% of customers** used a discount, showing that even limited promotions are a major driver for the majority of the customer base.
 * **Returns & Quality:** The store maintained high satisfaction with only **30.6% of products** returned and just **32.3% of customers** initiating a return.
 
 ### Customer Spending Velocity
-* **Tier Revenue Proportion:** **Standard members** contributed the largest share of revenue at **$1.87M**, followed by **Elite members** at **$1.49M** and **Bargain hunters** at **$526.0K**.
+* **Tier Revenue Proportion:** **Standard members** contributed the largest share of revenue at **$1.83M**, followed by **Elite members** at **$1.49M** and **Bargain hunters** at **$490K**.
 * **Spending Velocity (Scatter Plot):** The scatter plot reveals that **Elite members** maintain high net spend with minimal days between trips, while **Bargain hunters** have much longer gaps between store visits.
 * **Tier Heatmap:** **Standard members** represent the most consistent foot traffic density throughout the week, while **Elite members** show concentrated clusters during specific weekend "Power Shopping" blocks.
 * **Store Area Efficiency:** The column chart shows a remarkably even distribution of success across store sizes, with **Medium stores (2k-3.5k sq. ft.)** reaching an average spend of **$1.57M**, slightly outpacing Large and Small formats.
