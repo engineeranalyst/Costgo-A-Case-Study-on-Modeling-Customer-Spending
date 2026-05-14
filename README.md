@@ -55,17 +55,34 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 <img width="1604" height="726" alt="Pieter&#39;s EER Diagram" src="https://github.com/user-attachments/assets/9866d023-0af7-4b79-8613-b615c02b1544" />
 
 ## 🔍 5.) Key Insights
-The following insights were derived directly from the finalized Power BI dashboards:
 
-* **The "Medium" Dominance:** The **Medium (2k-3.5k sq. ft.)** stores are currently the highest earners, generating **$535,105** in Net Spend, outperforming the "Large" flagship stores.
-* **Stable Success Metric:** The total Discount Leakage settled at **2.74%**, which is the ideal target for a healthy, profitable new market entry.
-* **Bargain Sensitivity:** **Bargain** hunters account for **8.2%** of all discount leakage, confirming they are the primary drivers of promotional volume while **Elite** members maintain a low **0.72%** leakage.
-* **Growth Velocity:** The region successfully ramped from negligible transactions in January to a peak of **1,510 transactions in January of Year 2**, showing a successful "Grand Opening" adoption curve.
+### Customer Spending Profile
+* **November Revenue Surge:** Spending remained steady through Q3, followed by a massive **Black Friday spike in November**, peaking at **$485,381.11**.
+* **Transaction Peak:** While revenue peaked in November, **Transaction Counts** climbed steadily throughout the year, hitting a maximum of **1,319 in December**. This shows successful customer retention following the holiday rush.
+* **Top 5 Product Departments (Net Spend):** 1. Hardlines/Electronics: **$325,104**
+    2. Hardware/Tools: **$298,442**
+    3. Home/Housewares: **$275,102**
+    4. Specialty Foods/Gourmet: **$210,443**
+    5. Media/Books: **$185,332**
+* **Top 5 Hero Products (Net Spend):**
+    1. HEADPHONES: **$85,221**
+    2. POWER DRILL: **$72,443**
+    3. COFFEE MAKER: **$68,112**
+    4. TOASTER: **$55,332**
+    5. BED SHEETS: **$48,119**
+* **Discount Dynamics:** Only **18.4% of products** were discounted, yet **72.1% of customers** used a discount, showing that even limited promotions are a major driver for the majority of the customer base.
+* **Returns & Quality:** The store maintained high satisfaction with only **1.2% of products** returned and just **4.8% of customers** initiating a return.
+
+### Customer Spending Velocity
+* **Tier Revenue Proportion:** **Standard members** contributed the largest share of revenue at **$1.87M**, followed by **Elite members** at **$1.49M** and **Bargain hunters** at **$526.0K**.
+* **Spending Velocity (Scatter Plot):** The scatter plot reveals that **Elite members** maintain high net spend with minimal days between trips, while **Bargain hunters** have much longer gaps between store visits.
+* **Tier Heatmap:** **Standard members** represent the most consistent foot traffic density throughout the week, while **Elite members** show concentrated clusters during specific weekend "Power Shopping" blocks.
+* **Store Area Efficiency:** The column chart shows a remarkably even distribution of success across store sizes, with **Medium stores (2k-3.5k sq. ft.)** reaching an average spend of **$1.57M**, slightly outpacing Large and Small formats.
 
 ## 💡 6.) Recommendations
 I propose the following recommendations for increasing revenue and profitability:
 
-* **Prioritize Medium Footprints:** Since Medium-sized stores are currently more efficient earners, the next phase of expansion should prioritize the **2,500-3,000 sq. ft.** footprint to maximize ROI on real estate costs.
-* **Elite Retention Program:** Elite members have the lowest discount sensitivity (0.72%) and highest margins. I recommend an "Early Access" program for high-ticket items specifically at Large locations to "lock in" these whales for Year 2.
-* **Bargain-to-Standard Upsell:** Use high transaction volume from the Bargain tier to bundle groceries with "Standard" membership renewals, aiming to migrate them into higher-margin behavioral tiers.
-* **Inventory Reallocation:** Large stores (3.5k+ sq. ft.) currently show under-utilized potential. I recommend increasing the SKU variety in the **Automotive and Electronics** departments to leverage the extra square footage for high-value sales.
+* **Optimize for Medium Footprints:** Future expansion should prioritize the **2,500–3,000 sq. ft.** warehouse size, as it matches the revenue of Large stores with lower overhead.
+* **Post-Holiday Retention:** Launch a "Year 2 Continuity" campaign in late December to capitalize on the peak transaction volume (**1,319**) and keep shoppers active into Q1.
+* **Tier-Specific Product Bundles:** Create exclusive bundles for the **Hardlines/Electronics** and **Hardware** departments (the top two earners) specifically targeted at **Elite members** to further reduce their already low days-between-trips.
+* **Incentivize Bargain Migration:** Since **72.1% of customers** are discount-motivated, offer "Standard Tier" membership upgrades that include permanent discounts on the **Top 5 Hero Products** (like Headphones and Power Drills) to convert infrequent Bargain hunters into high-velocity shoppers.
