@@ -17,10 +17,10 @@ I utilized the `Faker` library integrated with custom business logic to ensure t
 * **Temporal Scaling:** Transactions were weighted to increase month-over-month, simulating the 12-month brand awareness ramp-up typical of a new location.
 * **Behavioral Constraints:** I implemented a **2.8% Stable Success** logic for discounts. This ensured that different tiers reacted differently to promotions (e.g., Bargain hunters showing 8.2% sensitivity vs. Elite members at 0.7%).
 
-### The `CleanData` Class & `cleaning_fun`
+### The `CleanData` class & `cleaning_fun` method
 To ensure code reusability and professional architecture, I developed a modular transformation pipeline:
-* **`CleanData` Class:** Acts as a central orchestrator for state management, ensuring every data transformation is idempotent and repeatable.
-* **`cleaning_fun` Methodology:** This function executes a multi-stage "Flattening" of raw records:
+* **`CleanData` class:** Acts as a central orchestrator for state management, ensuring every data transformation is idempotent and repeatable.
+* **`cleaning_fun` method:** This function executes a multi-stage "Flattening" of raw records:
     1.  **Normalization:** Converting raw CSV strings into standardized numeric and datetime formats.
     2.  **Constraint Enforcement:** Filtering out illogical data points and applying tax code mappings.
     3.  **Tier Logic Integration:** Dynamically assigning customers to tiers based on their simulated spending patterns, which feeds the primary dimensions of the EER diagram.
