@@ -71,8 +71,8 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
     3. COFFEE MAKER: **$333 K**
     4. TOASTER: **$333 K**
     5. BED SHEETS: **$222 K**
-* **Discount Dynamics:** Only **18.4% of products** were discounted, yet **72.1% of customers** used a discount, showing that even limited promotions are a major driver for the majority of the customer base.
-* **Returns & Quality:** The store maintained high satisfaction with only **1.2% of products** returned and just **4.8% of customers** initiating a return.
+* **Discount Dynamics:** Only **38.9% of products** were discounted, yet **97.3% of customers** used a discount, showing that even limited promotions are a major driver for the majority of the customer base.
+* **Returns & Quality:** The store maintained high satisfaction with only **30.6% of products** returned and just **32.3% of customers** initiating a return.
 
 ### Customer Spending Velocity
 * **Tier Revenue Proportion:** **Standard members** contributed the largest share of revenue at **$1.87M**, followed by **Elite members** at **$1.49M** and **Bargain hunters** at **$526.0K**.
