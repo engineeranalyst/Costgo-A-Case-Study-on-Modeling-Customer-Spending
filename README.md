@@ -59,7 +59,8 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 ### Customer Spending Profile
 * **November Revenue Surge:** Spending remained steady through Q3, followed by a massive **Black Friday spike in November**, peaking at **$485,381.11**.
 * **Transaction Peak:** While revenue peaked in November, **Transaction Counts** climbed steadily throughout the year, hitting a maximum of **1,319 in December**. This shows successful customer retention following the holiday rush.
-* **Top 5 Product Departments (Net Spend):** 1. Hardlines/Electronics: **$325,104**
+* **Top 5 Product Departments (Net Spend):
+    1. Hardlines/Electronics: **$325,104**
     2. Hardware/Tools: **$298,442**
     3. Home/Housewares: **$275,102**
     4. Specialty Foods/Gourmet: **$210,443**
