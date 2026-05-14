@@ -26,7 +26,7 @@ To ensure code reusability and professional architecture, I developed a modular 
     3.  **Tier Logic Integration:** Dynamically assigning customers to tiers based on their simulated spending patterns, which feeds the primary dimensions of the EER diagram.
 
 ## 📊 3.) Power BI Dashboard Methodology
-The visualization layer was designed using **Mode 33** strategic principles, focusing on high-level KPIs and granular operational efficiency.
+The visualization layer focused on high-level KPIs and granular operational efficiency.
 
 ### Customer Spending Profile
 * **Objective:** Identify the "Who" behind the revenue.
