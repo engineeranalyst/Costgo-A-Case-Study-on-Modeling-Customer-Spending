@@ -1,0 +1,9 @@
+﻿Department,Description,DepartmentID
+Dry Grocery / Snacks,"Shelf-stable packaged goods, bulk snacks, candies, and baking supplies.",12
+Beverages / Pantry,"Large-scale liquids (water, juice, soda) and high-volume pantry staples like oil and grains.",13
+Bakery / Breads,"Freshly baked goods, artisan breads, and bulk pastries (often found near the back of the warehouse).",18
+Specialty Foods / Gourmet,"Higher-end prepared foods, specialty cheeses, or seasonal food gift packs.",19
+Hardlines / Electronics,"Non-food items including batteries, small appliances, and household hardware.",23
+Hardware / Tools,"Heavy-duty hardware, power tools, automotive accessories, and outdoor maintenance equipment.",25
+Home / Housewares,"Bedding, towels, kitchen storage, and general indoor home decor.",61
+Media / Books,"Physical media including books, magazines, and occasionally seasonal software or entertainment media.",65
