@@ -60,17 +60,17 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 * **November Revenue Surge:** Spending remained steady through Q3, followed by a massive **Black Friday spike in November**, peaking at **$485,381.11**.
 * **Transaction Peak:** While revenue peaked in November, **Transaction Counts** climbed steadily throughout the year, hitting a maximum of **1,319 in December**. This shows successful customer retention following the holiday rush.
 * **Top 5 Product Departments (Net Spend):
-    1. Hardlines/Electronics: **$325,104**
-    2. Hardware/Tools: **$298,442**
-    3. Home/Housewares: **$275,102**
-    4. Specialty Foods/Gourmet: **$210,443**
-    5. Media/Books: **$185,332**
+    1. Hardlines/Electronics: **$1.14 M**
+    2. Hardware/Tools: **$650 K**
+    3. Home/Housewares: **$590 K**
+    4. Specialty Foods/Gourmet: **$430 K**
+    5. Media/Books: **$400 K**
 * **Top 5 Hero Products (Net Spend):**
-    1. HEADPHONES: **$85,221**
-    2. POWER DRILL: **$72,443**
-    3. COFFEE MAKER: **$68,112**
-    4. TOASTER: **$55,332**
-    5. BED SHEETS: **$48,119**
+    1. HEADPHONES: **$360 K**
+    2. POWER DRILL: **$350 K**
+    3. COFFEE MAKER: **$333 K**
+    4. TOASTER: **$333 K**
+    5. BED SHEETS: **$222 K**
 * **Discount Dynamics:** Only **18.4% of products** were discounted, yet **72.1% of customers** used a discount, showing that even limited promotions are a major driver for the majority of the customer base.
 * **Returns & Quality:** The store maintained high satisfaction with only **1.2% of products** returned and just **4.8% of customers** initiating a return.
 
