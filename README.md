@@ -39,9 +39,10 @@ The visualization layer focused on high-level KPIs and granular operational effi
 ### Customer Spending Velocity
 * **Objective:** Identify "Where" and "When" the customers spent their money.
 * **Charts:**
-    1. I used a **Stacked Clustered Column Graph** displaying total spend across store sizes, stacked by customer tier.
-    2. 
-* **Key Feature:** Implementation of a spending cluster visual to identify "Whales" (Elite) vs. "Bargain" hunters, allowing for a clear view of margin impact.
+    1. I created a **Treemap** showing the proportion of the total net spend by customer tier.
+    2. I created a **Scatter Plot** comparing the average days between transactions and the total net spend for each customer tier.
+    3. I created a **Heatmap** showing the distribution of the average days between transactions for each customer tier.
+    4. I created a **Stacked Clustered Column Graph** displaying total spend across store sizes, stacked by customer tier.
 
 ## 🏗️ 4.) EER Diagram
 The project utilizes a highly normalized **Star Schema** to ensure high-performance DAX calculations and data integrity.
