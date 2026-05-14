@@ -78,12 +78,12 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 * **Tier Revenue Proportion:** **Standard members** contributed the largest share of revenue at **$1.83M**, followed by **Elite members** at **$1.49M** and **Bargain hunters** at **$490K**.
 * **Spending Velocity (Scatter Plot):** The scatter plot reveals that **Elite members** maintain high net spend with minimal days between trips, while **Bargain hunters** have much longer gaps between store visits.
 * **Tier Heatmap:** **Standard members** represent the most consistent foot traffic density throughout the week, while **Elite members** show concentrated clusters during specific weekend "Power Shopping" blocks.
-* **Store Area Efficiency:** The column chart shows a remarkably even distribution of success across store sizes, with **Medium stores (2k-3.5k sq. ft.)** reaching an average spend of **$1.57M**, slightly outpacing Large and Small formats.
+* **Store Area Efficiency:** The column chart shows a remarkably even distribution of success across store sizes, with **Small Stores (1k-2k sq. ft.)** reaching a total net spend of **$1.09M**, slightly outpacing Medium and Large formats (2k+ sq ft.).
 
 ## 💡 6.) Recommendations
 I propose the following recommendations for increasing revenue and profitability:
 
-* **Optimize for Medium Footprints:** Future expansion should prioritize the **2,500–3,000 sq. ft.** warehouse size, as it matches the revenue of Large stores with lower overhead.
+* **Optimize for Medium Footprints:** Future expansion should prioritize the **1k–2k sq. ft.** warehouse size, as it matches the revenue of Larger stores with lower overhead.
 * **Post-Holiday Retention:** Launch a "Year 2 Continuity" campaign in late December to capitalize on the peak transaction volume (**1,319**) and keep shoppers active into Q1.
 * **Tier-Specific Product Bundles:** Create exclusive bundles for the **Hardlines/Electronics** and **Hardware** departments (the top two earners) specifically targeted at **Elite members** to further reduce their already low days-between-trips.
-* **Incentivize Bargain Migration:** Since **72.1% of customers** are discount-motivated, offer "Standard Tier" membership upgrades that include permanent discounts on the **Top 5 Hero Products** (like Headphones and Power Drills) to convert infrequent Bargain hunters into high-velocity shoppers.
+* **Incentivize Bargain Migration:** Since **97.3% of customers** are discount-motivated, offer "Standard Tier" membership upgrades that include permanent discounts on the **Top 5 Hero Products** (like Headphones and Power Drills) to convert infrequent Bargain hunters into high-velocity shoppers.
