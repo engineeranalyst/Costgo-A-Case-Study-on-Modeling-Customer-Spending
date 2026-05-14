@@ -29,14 +29,18 @@ To ensure code reusability and professional architecture, I developed a modular 
 The visualization layer focused on high-level KPIs and granular operational efficiency.
 
 ### Customer Spending Profile
-* **Objective:** Identify the "Who" behind the revenue.
+* **Objective:** Identify the "Who" behind how the customers spent their money.
 * **Charts:**
-* I utilized **Clustered Bar Charts** to compare total net spend across products and their departments. 
+    1. I created **Line Charts** to compare total net spend and total transactions over time.
+    2. I created **Clustered Bar Charts** to compare total net spend across products and their departments.
+    3. I created **Pie Charts** to compute the percentage of customers who used a discount and returned a product.
+    4. I created **Pie Charts** to compute the percentage of products that were discounted and returned.
 
 ### Customer Spending Velocity
-* **Objective:** Identify "Where" and "When" value is created.
-* **Binning Logic:** Using Power Query, I created **Warehouse Area Bins** (Small, Medium, Large) to categorize 1,000+ simulated locations.
-* **Design:** The centerpiece is a **Stacked Clustered Column Graph** displaying total spend across store sizes, stacked by customer tier. This highlights the "Brand over Building" effect—proving that new stores hit performance targets regardless of physical footprint in Year 1.
+* **Objective:** Identify "Where" and "When" the customers spent their money.
+* **Charts:**
+    1. I used a **Stacked Clustered Column Graph** displaying total spend across store sizes, stacked by customer tier.
+    2. 
 * **Key Feature:** Implementation of a spending cluster visual to identify "Whales" (Elite) vs. "Bargain" hunters, allowing for a clear view of margin impact.
 
 ## 🏗️ 4.) EER Diagram
