@@ -1,8 +1,8 @@
 # 🛒 Costco : A Case Study on Modeling Customer Spending
 
-<img width="1428" height="782" alt="Customer Spending Profile" src="https://github.com/user-attachments/assets/67659e14-0ad3-4ad2-9c89-82a0ac6d58b0" />
+<img width="1426" height="781" alt="Customer Spending Profile" src="https://github.com/user-attachments/assets/985df406-5658-417f-8f49-d5b8c512b977" />
 
-<img width="1422" height="565" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/858a302d-b4a2-419a-9bb8-c077fe0a6d58" />
+<img width="1416" height="560" alt="Customer Spending Velocity" src="https://github.com/user-attachments/assets/0f974cd2-1b5f-4980-9be0-b7bf91201ad9" />
 
 ## 📝 1.) Executive Summary
 This project simulates a "Grand Opening" scenario for a major retail expansion, focusing on the first year of transactional data across multiple warehouse sizes and geographic locations. The primary objective was to build a robust, scalable ETL pipeline and a dual-dashboard suite to monitor **Customer Spending Velocity** and **Tiered Behavioral Profiles**. By integrating Python-driven data generation with SQL-based relational modeling, this project provides a high-fidelity look at how a new market reacts to a major retail entry.
