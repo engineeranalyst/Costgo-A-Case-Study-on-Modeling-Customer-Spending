@@ -90,6 +90,6 @@ The project utilizes a highly normalized **Star Schema** to ensure high-performa
 I propose the following recommendations for increasing revenue and profitability:
 
 * **Optimize for Medium Footprints:** Future expansion should prioritize the **1k–2k sq. ft.** warehouse size, as it matches the revenue of Larger stores with lower overhead.
-* **Post-Holiday Retention:** Launch a "Year 2 Continuity" campaign in late December to capitalize on the peak transaction volume (**1,319**) and keep shoppers active into Q1.
+* **Post-Holiday Retention:** Launch a "Year 2 Continuity" campaign in late December to capitalize on the peak transaction volume (**1,292**) and keep shoppers active into Q1.
 * **Tier-Specific Product Bundles:** Create exclusive bundles for the **Hardlines/Electronics** and **Hardware** departments (the top two earners) specifically targeted at **Elite members** to further reduce their already low days-between-trips.
 * **Incentivize Bargain Migration:** Since **97.3% of customers** are discount-motivated, offer "Standard Tier" membership upgrades that include permanent discounts on the **Top 5 Hero Products** (like Headphones and Power Drills) to convert infrequent Bargain hunters into high-velocity shoppers.
